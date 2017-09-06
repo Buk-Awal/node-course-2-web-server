@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">  
+
+<title>FORM</title>
+
+</head>
+
+<body bgcolor="#cc9">
+
+<form>
+
+<h2>TYPES OF INPUTS</h2>
+
+<hr color="grey"/>
+
+<dl>
+
+<dt>Single Line Input</dt>
+
+<dd>Text</dd>
+
+<dd>Password</dd>
+
+</dl>
+
+<h3>Text</h3>
+
+<input type="text"  placeholder="Name" name="name" size="30"/>
+
+<h3>Password</h3>
+
+<input type="password" placeholder="password" name="password" size="30" />
+
+<hr color="grey" />
+
+<dl>
+
+<dt>Datalist</dt>
+
+<dd>For the datalist, the values you would be required of are pre-entered, you just need to type the first two or three and the rest will come up for selection.</dd>
+
+</dl>
+
+<h3>Language for coding the web</h3>
+
+<input list="tutorial" placeholder="language here, e.g CSS">
+
+<datalist id="tutorial">
+
+<option value="CSS">
+
+<option value="HTML">
+
+<option value="PHP">
+
+<option value="JavaScript">
+
+</datalist>
+
+<hr color="grey" />
+
+<dl>
+
+<dt>Checkbox</dt>
+
+<dd>Checkbox is used to make multiple choices (make more than one choice, unlike redio button)</dd>
+
+</dl>
+
+<input type="checkbox" name="maths" />Maths <br />
+
+<input type="checkbox" name="physics" />Physics <br />
+
+<input type="checkbox" name="english" />English
+
+<hr color="grey" />
+
+<dl>
+
+<dt>Radio button</dt>
+
+<dd>Radio button is used when you have to make only one choice out of the multitude</dd>
+
+</dl>
+
+<input type="radio" name="rad" />Maths <br />
+
+<input type="radio" name="rad" />Physics <br />
+
+<input type="radio" name="rad" />English
+
+<dl>
+
+<dt>Select box</dt>
+
+<dd>The select box is used to present list of choices to the user to select from.</dd>
+
+<select name="dropdown">
+
+<option value="maths">Maths</option>
+
+<option value="physics">Physics</option>
+
+<option value="english">English</option>
+
+</select>
+
+<hr color="grey" />
+
+<dl>
+
+<dt>File upload</dt>
+
+<dd>This is used to upload a any file type unto the form depending on the acceptable file type</dd>
+
+</dl>
+
+<input  type="file" name="fileupload" accept="image/*" />
+
+<hr color="grey" />
+
+<dl>
+
+<dt>Button Controls</dt>
+
+<dd>Submit</dd>
+
+<dd>Reset</dd>
+
+<dd>Button</dd>
+
+<dd>Image</dd>
+
+</dl>
+
+<br color="grey" />
+
+<input type="Submit" name="submit" value="Submit" /> <br /> <br />
+
+<input type="Reset" name="reset" value="Reset" /> <br /> <br />
+
+<input type="button" name="button" value="OK" /> <br /> <br />
+
+<input type="image" name="name" src="folder1/ecowas.jpg"  width="50" height="25" border="1" />
+
+</form>
+
+</body>
+
+</html>

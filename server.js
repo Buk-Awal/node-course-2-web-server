@@ -50,6 +50,14 @@ app.get('/projects', (req, res) => {
   });
 });
 
+app.get('/inputstypes', (req, res) => {
+  res.render('inputstypes.hbs');
+});
+
+app.get('/loginform', (req, res) => {
+  res.render('loginform.hbs');
+});
+
 app.get('/bad', (req, res) => {
   res.send({
     errorMessage: 'Unable to handle request'
